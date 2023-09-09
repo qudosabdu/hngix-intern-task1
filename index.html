@@ -13,31 +13,32 @@
   </head>
   <body>
     <div class="container">
-      <h1 data-testid="slackUserName">Abdul Qudoos</h1>
+      <img
+        src="https://ca.slack-edge.com/T05FFAA91JP-U05R3KA0KLN-6577018a25ea-512"
+        width="80"
+        height="80"
+        alt="Your Slack username"
+        data-testid="slackDisplayImage"
+      />
 
       <a
         target="_blank"
         href="https://app.slack.com/client/T05FFAA91JP/C05FCFWNHA9/rimeto_profile/U05R3KA0KLN"
         data-testid="slackProfileURL"
       >
-        <img
-          src="https://ca.slack-edge.com/T05FFAA91JP-U05R3KA0KLN-6577018a25ea-512"
-          width="80"
-          height="80"
-          alt="Your Slack username"
-          data-testid="slackDisplayImage"
-        />
+        <p data-testid="slackUserName">Abdul Qudoos</p>
       </a>
-      <p data-testid="currentDayOfTheWeek">Day of the Week</p>
-        <span id="Week" style="font-weight: bold;"></span>
-        
-        <p data-testid="currentUTCTime">UTC Time</p>
-        <span id="utcTime" data-testid="currentUTCTime">12:34:56</span>
-  
-        <!-- <p data-testid="currentLocalTime">Local Time</p>
-        <span id="localTime" data-testid="currentLocalTime">12:34:56</span> -->
 
-      <p data-testid="myTrack" style="font-weight: bold;">Frontend</p>
+      <p data-testid="currentDayOfTheWeek">
+        Day of the Week: <span id="Week" style="font-weight: bold"></span>
+      </p>
+
+      <p data-testid="currentUTCTime">
+        UTC Time:
+        <span id="utcTime" data-testid="currentUTCTime">12:34:56</span>
+      </p>
+
+      <p data-testid="myTrack" style="font-weight: bold">My Track: Frontend</p>
     </div>
 
     <script src="script.js"></script>

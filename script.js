@@ -17,15 +17,6 @@ setInterval(() => {
     const utcTimeElement = document.getElementById("utcTime");
     utcTimeElement.innerHTML = utc_Time;
 
-
-    // const localTime = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
-
-    // const localTimeElement = document.getElementById("localTime");
-    // localTimeElement.innerHTML = localTime;
-    // const difference = utc_Time - localTime;
-    // const differenceElement = document.getElementById("difference");
-    // differenceElement.innerHTML = difference;
-
 }, 500);
 
 
